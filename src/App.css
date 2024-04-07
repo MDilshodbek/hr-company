@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  color: #0c1523;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+}
+.genNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.genTitle {
+  font-size: 43px;
+  font-weight: 600;
+  margin: 0;
+}
+.bgIcons {
+  display: flex;
+  width: 100%;
+  height: 0;
+}
+.mainImg {
+  position: absolute;
+  width: 935px;
+  height: 935px;
+  top: 0;
+  right: 0;
+}
+.star1 {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 122px;
+  left: 339px;
+}
+.star2 {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 431px;
+  left: 45px;
+}
+.star3 {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 644px;
+  left: 362px;
+}
+.star4 {
+  position: absolute;
+  width: 51px;
+  height: 47px;
+  top: 661px;
+  left: 71px;
+}
+.freestar1 {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 101px;
+  left: 45px;
+}
+.freestar2 {
+  position: absolute;
+  width: 26px;
+  height: 24px;
+  top: 205px;
+  left: 99px;
+}
+.freestar3 {
+  position: absolute;
+  width: 51px;
+  height: 47px;
+  top: 798px;
+  left: 234px;
+}
+.freestar4 {
+  position: absolute;
+  width: 116px;
+  height: 107px;
+  top: 768px;
+  left: 592px;
+}
+.freestar5 {
+  position: absolute;
+  width: 102px;
+  height: 94px;
+  top: 888px;
+  left: 376px;
+}
+.avatarImg {
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  top: 527px;
+  right: 238px;
+}
+.facebook {
+  position: absolute;
+  top: 227px;
+  left: 624px;
+}
+.twitter {
+  position: absolute;
+  top: 119px;
+  left: 1149px;
+}
+.instagram {
+  position: absolute;
+  top: 677px;
+  left: 1104px;
+}
+.snapchat {
+  position: absolute;
+  top: 268px;
+  left: 1224px;
+}
+.stack {
+  position: absolute;
+  width: 180px;
+  height: 66px;
+  top: 762px;
+  left: 420px;
+}
+.drib {
+  position: absolute;
+  width: 180px;
+  height: 66px;
+  top: 762px;
+  left: 152px;
+  opacity: 50%;
+}
+.Insta {
+  position: absolute;
+  width: 180px;
+  height: 66px;
+  top: 869px;
+  left: 150px;
+}
+.behance {
+  position: absolute;
+  width: 180px;
+  height: 66px;
+  top: 869px;
+  left: 420px;
+}
+.navBox {
+  height: 90px;
+  border-bottom: 1px solid rgba(12, 21, 35, 0.1);
+}
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+.leftNav {
+  gap: 115px;
+}
+.logoBox {
+  gap: 6px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(to top right, #6d12e0, #b600e3);
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+.logoName {
+  color: #a904e3;
+}
+.navHome {
+  gap: 34px;
+}
+.home {
+  font-size: 18px;
+  font-weight: 600;
+}
+.Features {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0c1523;
+}
+.rightNav {
+  gap: 25px;
+  z-index: 1;
+}
+.Login {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fafbff;
+}
+.AccountBox {
+  width: 170px;
+  height: 49px;
+  border-radius: 9px;
+  color: #0c1523;
+  background-color: #41f5c0;
+}
+.createAcc {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+.heroBox {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: 975px;
+  position: relative;
+  padding-left: 150px;
+}
+.hiringSmart {
+  padding-top: 100px;
+  font-size: 43px;
+  font-weight: 400;
+  margin: 0;
+}
+.reviews {
+  margin: 0;
+  font-size: 76px;
+  font-weight: 600;
+}
+.heroDescription {
+  margin: 0;
+  padding-top: 30px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.buttonBox {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0;
+  padding-top: 40px;
+  margin: 0;
+}
+.learnMore {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+/* End of hero */
+/* Statistics */
+.statistics {
+  flex-direction: column;
+  width: 60%;
+  height: 178px;
+  margin: auto;
+}
+.mainStatsBox {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.statsBox {
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 60px;
+}
+.statsInNumbers {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+.statsTitle {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+}
+/* Our Features */
+.ourFeaturesBox {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: #fafbff;
+  height: 1080px;
+  margin: auto;
+  margin-top: 150px;
+  border-radius: 20px;
+}
+.ourFeatures {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-left: 147px;
+  padding-right: 147px;
+}
+.column1 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding-top: 144px;
+  gap: 30px;
+}
+.findTalent {
+  width: 367px;
+}
+.trybutton {
+  width: 142px;
+  height: 49px;
+  border-radius: 9px;
+  background-color: #0c1523;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+.tryforFree {
+  font-size: 16px;
+  font-weight: 500;
+  color: #fafbff;
+}
+.featureCard {
+  height: 260px;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+}
+.featureCard::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5px;
+  background-image: radial-gradient(circle, #41f5c0, #41f5c00d);
+}
+.greenStar {
+  padding-top: 50px;
+  padding-left: 53px;
+}
+.featureTitle {
+  padding: 15px 50px;
+  margin: 0;
+}
+.featureRev {
+  font-size: 18px;
+  font-weight: 400;
+  margin: 0;
+  padding-left: 50px;
+}
+.column2 {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-top: 120px;
+  gap: 30px;
+}
+/* End of Our Features */
+.marketplace {
+  width: 80%;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 1);
+  margin-top: 120px;
+}
