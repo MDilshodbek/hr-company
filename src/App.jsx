@@ -1,5 +1,7 @@
 import "./App.css";
 import FlowerCard from "./flowerCard.jsx";
+import MarketPlace from "./marketPlace.jsx";
+import RecentReview from "./recentReview.jsx";
 
 // Images
 import rightimg from "./assets/rightimg.png";
@@ -14,6 +16,9 @@ import stack from "./assets/stack.png";
 import Insta from "./assets/Insta.png";
 import drib from "./assets/drib.png";
 import behance from "./assets/behance.png";
+import male from "./assets/male.png";
+import female from "./assets/female.png";
+import singer from "./assets/singer.png";
 
 // Feature Icons
 import graphic from "./assets/graphic.png";
@@ -27,6 +32,12 @@ import ui from "./assets/ui.png";
 import ux from "./assets/ux.png";
 import writing from "./assets/writing.png";
 import greenStar from "./assets/greenStar.png";
+
+// Footer Icons
+import footertwit from "./assets/Footertwit.png";
+import footerinsta from "./assets/Footerinsta.png";
+import footerfacebook from "./assets/Footerfacebook.png";
+import copyright from "./assets/copyright.png";
 
 const App = () => {
   return (
@@ -145,12 +156,84 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="marketplace genNav">
+      <div className="marketplace">
         <h1 className="genTitle">Explore The Marketplace</h1>
-        <p >
+        <p className="marketplaceDescript">
           Find the perfect freelance services for your business · Popular
           professional services ·
         </p>
+        <div className="row1">
+          <MarketPlace
+            img={graphic}
+            jobTitle="Graphic Design"
+            jobDetail="1k Jobs Available"
+          />
+          <MarketPlace
+            img={ui}
+            jobTitle="UI Designer"
+            jobDetail="5k Jobs Available"
+          />
+          <MarketPlace
+            img={ux}
+            jobTitle="UX Designer"
+            jobDetail="7k Jobs Available"
+          />
+        </div>
+        <div className="row2">
+          <MarketPlace
+            img={writing}
+            jobTitle="Content Writing"
+            jobDetail="500 Jobs Available"
+          />
+          <MarketPlace
+            img={marketing}
+            jobTitle="Digital Marketing"
+            jobDetail="1.5k Jobs Available"
+          />
+          <MarketPlace img={seo} jobTitle="SEO" jobDetail="7k Jobs Available" />
+        </div>
+      </div>
+      <div className="startUp">
+        <div className="startupText">
+          <h3 className="cardJobTitle">
+            Get Starting Work With Startup Today.
+          </h3>
+          <p className="genTitleDescript">
+            Starting a business and getting it off the ground is easy if you
+            follow.
+          </p>
+        </div>
+        <div className="startupButton genNav">Start Now</div>
+      </div>
+      <div className="checkReview">
+        <div className="checkReviewBox">
+          <h1 className="genTitle reviewTitle">Check out Recent Review</h1>
+          <p className="marketplaceDescript">
+            Find the perfect freelance services for your business · Popular
+            professional services ·
+          </p>
+          <div className="recentReview">
+            <RecentReview img={male} />
+            <RecentReview img={female} />
+            <RecentReview img={singer} />
+          </div>
+        </div>
+      </div>
+      <div className="footerbox">
+        <div className="footerContact">
+          <div className="footerEmail genNav">
+            <p className="muradEmail">muraddc0@gmail.com</p>
+          </div>
+          <div className="footerMedia genNav">
+            <img src={footerfacebook} alt="" />
+            <img src={footertwit} alt="" />
+            <img src={footerinsta} alt="" />
+          </div>
+        </div>
+        <div className="Copyright genNav">
+          <img src={copyright} alt="" />
+          <p className="muradCopy">Copyright by Murad</p>
+        </div>
       </div>
     </div>
   );
