@@ -167,6 +167,7 @@ const App = () => {
             img={graphic}
             jobTitle="Graphic Design"
             jobDetail="1k Jobs Available"
+            color="color"
           />
           <MarketPlace
             img={ui}
@@ -177,6 +178,7 @@ const App = () => {
             img={ux}
             jobTitle="UX Designer"
             jobDetail="7k Jobs Available"
+            color="color"
           />
         </div>
         <div className="row2">
@@ -189,6 +191,7 @@ const App = () => {
             img={marketing}
             jobTitle="Digital Marketing"
             jobDetail="1.5k Jobs Available"
+            color="color"
           />
           <MarketPlace img={seo} jobTitle="SEO" jobDetail="7k Jobs Available" />
         </div>
